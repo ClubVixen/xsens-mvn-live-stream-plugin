@@ -5,7 +5,7 @@
 <h1 align="center">XSENS MVN Live Stream Plugin</h1>
 
 <p align="center">
-  <b>Stream Xsens MVN mocap into Unity, Blender, Maya and iClone, record, export BVH, and now reprocess your recordings offline.</b>
+  <b>Stream Xsens MVN mocap into Unity, Blender, Maya, and iClone, record, export BVH, and now reprocess your recordings offline.</b>
 </p>
 
 <p align="center">
@@ -16,10 +16,10 @@
 </p>
 
 <p align="center">
-  <a href="../../issues/new?template=bug_report.yml">🐞 Report a bug</a> ·
-  <a href="../../issues/new?template=feature_request.yml">✨ Request a feature</a> ·
-  <a href="CHANGELOG.md">📜 Updates</a> ·
-  <a href="https://www.youtube.com/watch?v=l5t6nejf86s">▶️ Video</a>
+  <a href="../../issues/new?template=bug_report.yml"> Report a bug</a> ·
+  <a href="../../issues/new?template=feature_request.yml"> Request a feature</a> ·
+  <a href="CHANGELOG.md"> Updates</a> ·
+  <a href="https://www.youtube.com/watch?v=l5t6nejf86s"> Video</a>
 </p>
 
 ---
@@ -27,7 +27,7 @@
 > [!WARNING]
 > **This plugin is in active development (beta).** I fix things as I go, but updates don't follow a fixed schedule. Only buy it if you're OK with that.
 
-## 🎬 In action
+## In action
 
 <p align="center">
   <img src="docs/media/demo-2.gif" alt="Live streaming from MVN into Unity" width="80%">
@@ -38,7 +38,7 @@
   <img src="docs/media/demo-3.gif" alt="Demo" width="45%">
 </p>
 
-## ✨ What it does
+## What it does
 
 <table>
 <tr>
@@ -46,11 +46,11 @@
 
 | | |
 | --- | --- |
-| 📡 **Live streaming** | Pipe Xsens MVN data into **Unity, Blender, Maya and iClone** |
-| 🎥 **Record & export** | Record takes, export **FBX**, or export **BVH** straight from the app |
-| 🧍 **VTubing** | Go full-on VTuber with live streaming |
-| 🔁 **Reprocess MVN** | **New:** re-solve a recorded `.mvn` offline into a cleaner new file, with a progress bar and cancel |
-| 📐 **Euler output** | Euler rotation format (optional, paid add-on) |
+| **Live streaming** | Pipe Xsens MVN data into **Unity, Blender, Maya and iClone** |
+| **Record & export** | Record takes, export **FBX**, or export **BVH** straight from the app |
+| **VTubing** | live streaming to unity3d, unreal or anything else that xsens can stream to |
+| **HD Reprocess MVN** | re-solve a recorded `.mvn` offline into a cleaner new file |
+| **Euler output** | Euler rotation format for iClone (optional, paid add-on) |
 
 **What it's NOT:** an exploit for MVN. You're still on the free plan, with whatever limits that has.
 
@@ -61,16 +61,16 @@
 </tr>
 </table>
 
-## 🔁 Reprocess MVN File (new)
+## Reprocess MVN File (new)
 
 Click **REPROCESS MVN FILE…** in the plugin window, pick a recording, then choose where to save the result.
 
 - Always writes a **new file** (default `<name>_reprocessed.mvn`). Your original recording is **never** changed.
-- Runs fully offline with a native solver. No Python and no Xsens SDK needed. A typical recording takes about 5 minutes.
+- Runs fully offline with a native solver. A typical recording takes about 5 minutes.
 - In our tests, foot contacts and root drift were very close to MVN's own reprocessing: under 1 cm RMS position and under 1° orientation.
 - Keep the `MvnReprocess` folder next to `BipedStreamerPlugin.dll`.
 
-## 📦 Install
+## Install
 
 <details open>
 <summary><b>MVN 2024.2 and below</b></summary>
@@ -114,9 +114,9 @@ MVN\plugins\
     └── ...support DLLs
 ```
 
-## 🐞 Bugs, issues & feature requests
+## Bugs, issues & feature requests
 
-This repo is the home for **bug reports, feature requests and update notes**. It doesn't contain the source code.
+This repo is the home for **bug reports, feature requests, and update notes**. It doesn't contain the source code.
 
 | I want to… | Go here |
 | --- | --- |
