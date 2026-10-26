@@ -1,0 +1,48 @@
+name: 🐞 Bug report
+description: Something isn't working in the plugin
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! The more detail you give, the faster it gets fixed.
+  - type: dropdown
+    id: mvn
+    attributes:
+      label: MVN version
+      options: ["2024.2 or older", "2025", "2026", "Other (say below)"]
+    validations: { required: true }
+  - type: dropdown
+    id: variant
+    attributes:
+      label: Plugin variant
+      options: ["Base", "Euler"]
+    validations: { required: true }
+  - type: dropdown
+    id: area
+    attributes:
+      label: What were you doing?
+      multiple: true
+      options: ["Streaming to Unity", "Streaming to Blender", "Streaming to Maya", "Streaming to iClone", "Recording / FBX", "BVH export", "Reprocess MVN file", "Installing", "Other"]
+    validations: { required: true }
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you expected vs. what actually happened.
+    validations: { required: true }
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open MVN...
+        2. Click...
+        3. See error...
+    validations: { required: true }
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / screenshots
+      description: Paste the plugin log or the reprocess status message, or drag in screenshots.
