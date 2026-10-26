@@ -130,5 +130,5 @@ When reporting a bug, please include your **MVN version**, **plugin variant** (2
 ---
 
 <p align="center">
-  <sub>Made by <a href="https://moliminous.itch.io">moliminous</a> · Not affiliated with Movella / Xsens · No generative AI was used in the plugin's content</sub>
+  <sub>Made by <a href="https://moliminous.itch.io">moliminous</a> · Not affiliated with Movella / Xsens </sub>
 </p>
