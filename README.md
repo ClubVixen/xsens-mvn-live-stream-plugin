@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://moliminous.itch.io/xsens"><img alt="Get it on itch.io" src="https://img.shields.io/badge/itch.io-Get%20the%20plugin-fa5c5c?style=for-the-badge&logo=itchdotio&logoColor=white"></a>
   <img alt="Status" src="https://img.shields.io/badge/status-beta%20v4.0-f5a623?style=for-the-badge">
-  <img alt="MVN" src="https://img.shields.io/badge/MVN-2024.2%20%7C%202025%2B-6f42c1?style=for-the-badge">
+  <img alt="MVN" src="https://img.shields.io/badge/MVN-2023.2%20%7C%202024.2%20%7C%202025%2B-6f42c1?style=for-the-badge">
   <img alt="Platform" src="https://img.shields.io/badge/platform-Windows%20x64-0078d4?style=for-the-badge&logo=windows&logoColor=white">
 </p>
 
