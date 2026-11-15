@@ -1,8 +1,11 @@
 # Updates
+<<<<<<< HEAD
 
 ## 2026-11-15: MVN 2023.2 support + reprocess fix
 
 - **Fixed:** "Reprocess failed: Missing property: ScenarioLabel" This Error can happen on 2024.2 as well. All versions have been updated to take this into account. These are now processed as single-level, which is MVN's default.
+=======
+>>>>>>> f1289f5c4d4079faf2ba609be66975926f798790
 
 ## 2026-10-31: MVN 2023.2 support + reprocess fix
 
